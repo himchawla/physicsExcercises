@@ -38,6 +38,10 @@ sprite::sprite(float x, float y)
 	
 }
 
+sprite::sprite()
+{
+	alive = true;
+}
 
 
 

@@ -32,6 +32,7 @@ public:
     void revive();
 	void setTexture(std::string t);
     sprite(float x, float y);
+	sprite();
     std::string Name;
     void setLocation(float, float);   
     void draw(sf::RenderWindow& win);
